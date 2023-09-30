@@ -37,9 +37,11 @@ export default function Animation() {
             </div>
           </div>
         </div>
-        <div className="animation">
-          <Lottie options={defaultOptions} height={650} width={900} />
-        </div>
+        <center>
+          <div className="animation">
+            <Lottie options={defaultOptions} />
+          </div>
+        </center>
       </div>
     </div>
   );
