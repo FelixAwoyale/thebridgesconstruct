@@ -1,0 +1,124 @@
+.App {
+  text-align: center;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Space+Grotesk:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+* {
+  margin: 0;
+  font-family: "Space Grotesk", sans-serif;
+}
+
+.Applogo {
+  width: 8%;
+  height: 8%;
+  object-fit: contain;
+  padding-top: 1%;
+}
+
+.logo-img {
+  width: 100%;
+  height: 100%;
+}
+
+h1 {
+  font-family: "Dela Gothic One", cursive;
+}
+
+.mybutton {
+  min-width: 165px !important;
+  width: auto !important;
+  height: 50px;
+  letter-spacing: 0.5px;
+  line-height: 50px;
+  padding: 0 35px 0 35px;
+  font-size: 15px;
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  font-weight: bolder;
+  border: none;
+  cursor: pointer;
+  border: 1px solid #ffff;
+  transition: 0.3s ease-in;
+}
+
+.input-field {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1%;
+  margin-bottom: 0;
+}
+
+.mybutton:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+
+.form-input {
+  background: none;
+  background-color: white;
+  color: black;
+  font-size: 18px;
+  padding: 10px 10px 10px 5px;
+  display: block;
+  width: 500px;
+  border: none;
+  border-radius: 0;
+  border-bottom: 1px solid white;
+  margin: 25px 0;
+}
+
+.form-input:focus {
+  outline: none;
+}
+
+p {
+  font-family: "Space Grotesk", sans-serif;
+}
+
+.animation {
+  display: flex;
+  align-items: flex-end;
+}
+
+.box {
+}
+
+.App-header {
+  background-color: black;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
