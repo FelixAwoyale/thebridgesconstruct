@@ -17,14 +17,14 @@ export default function Animation() {
       <div className="box">
         <div>
           <div className="text-box">
-            <h1>Site Under construction !</h1>
+            <h1>Site under construction !</h1>
             <p>Check back later !</p>
           </div>
 
           <div>
             <p style={{ textAlign: "" }}>
               {" "}
-              Until then Subscribe to our wait list
+              Until then subscribe to our wait list
             </p>
             <div className="input-field">
               <input
